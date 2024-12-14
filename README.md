@@ -45,3 +45,10 @@ Once all of that is done, simply cd to the directory where the font you want is 
 You can have multiple sizes of your font, but if a size has an equal vertical size to one another, the biggest font horizontally will take priority. The only way to get past this is by moving the fonts you don't want to a different directory. On top of that, in GTK itself, font variants like bold, italic, and semicondensed will not display properly, so sticking with regular is the only solution.
 
 With all of this done now, you should be able to select Fixed or whatever font you want in the font selector!
+
+## Classic X11 cursors (X11 only, optional)
+With this theme and the font, you might want to go even further with the classic X11 style. This will further enhance it, but with the cost of being a bit destructive.
+
+To do this, simply delete everything inside index.theme in /usr/share/icons/default, and go into ~/.icons/ or ~/.local/share/icons. If the default cursor theme is there in either of those places, do the same.
+
+Setting the cursor theme should be as simple as going into whatever theme panel you have (or going into the settings.ini file) and setting it to blank or default, but if whatever application you're using doesn't like that, use LXAppearance instead. Now you should have the true classic X11 cursors.
