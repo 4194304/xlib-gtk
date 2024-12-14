@@ -6,12 +6,13 @@ This theme attempts to make GTK apps look as close as possible to being an xlib 
 ## Complete:
 * Most widgets
 * Everything you would realistically need
+* Selection support
 
 ## To do:
-* Touch up on random stuff like tabs
 * GTK 2.0 + 4.0 (GTK 2.0 will come before 4.0, but the port to 4.0 should be easy enough I guess)
 * Try to figure out how to disable the on and off icons on switches
 * Mouse selection backgrounds
+* Sidebar in the file selector
 
 ## Installation
 I recommend the following to enhance the look and feel, but doing this is completely optional:
