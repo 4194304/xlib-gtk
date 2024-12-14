@@ -18,6 +18,7 @@ button:hover {
 }
 button:active {
 	border:0px;
+	padding:4px;
 	background-color:black;
 	color:white
 }
@@ -113,7 +114,7 @@ entry:hover {
 	padding:2px;
 }
 separator {
-	background-image:url("../images/stretchedchecker.png");
+	background-image:url("../images/bar_vertical.png");
 }
 scrollbar button {
 	padding:1px
@@ -183,7 +184,18 @@ togglebutton:active {
 }
 switch {
 	border:solid 1px black;
-	background-color:black;
+	background-image:url("../images/checker.png");
+}
+switch image, switch icon {
+	opacity:0;
+}
+switch slider {
+	padding:0px;
+	border-left:2px solid black;
+	border-right:2px solid black;
+}
+switch slider:disabled {
+	background-image:url("../images/checker.png");
 }
 button.link:active {
 	padding:4px;
@@ -221,9 +233,6 @@ button.font:active {
 }
 button.toggle:active {
 	padding:4px;
-}
-button:disabled label {
-	background-image:url("../images/checker.png");
 }
 spinbutton.horizontal button:active {
 	background-color:black;
@@ -273,4 +282,58 @@ toolbar button:disabled {
 	color:black;
 	background-color:white;
 	background-image:none;
+}
+spinner:disabled {
+	opacity:0;
+}
+progress, block.filled {
+	background-color:white;
+}
+modelbutton {
+	padding:4px;
+}
+modelbutton:hover {
+	border:3px solid black;
+	padding:1px;
+}
+modelbutton:active {
+	border:none;
+	padding:4px;
+	background-color:black;
+	color:white;
+}
+arrow {
+	background-image:url("../images/arrow.png");
+	padding-left:7px;
+	padding-right:7px;
+	background-repeat:no-repeat;
+	-gtk-icon-source: none;
+}
+check:checked {
+	-gtk-icon-source: none;
+	background-image:url("../images/check.png");
+	background-repeat:no-repeat;
+}
+radio:checked {
+	-gtk-icon-source: none;
+	background-image:url("../images/radio.png");
+	background-repeat:no-repeat;
+}
+radio:checked:active {
+	background-image:url("../images/radio_active.png");
+	background-repeat:no-repeat;
+}
+check:checked:active {
+	background-image:url("../images/check_active.png");
+	background-repeat:no-repeat;
+}
+check:inconsistent, radio:inconsistent {
+	-gtk-icon-source: none;
+	background-image:url("../images/inconsistent.png");
+	background-repeat:no-repeat;
+}
+check:inconsistent:active, radio:inconsistent:active {
+	-gtk-icon-source: none;
+	background-image:url("../images/inconsistent_active.png");
+	background-repeat:no-repeat;
 }
