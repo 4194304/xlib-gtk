@@ -337,3 +337,7 @@ check:inconsistent:active, radio:inconsistent:active {
 	background-image:url("../images/inconsistent_active.png");
 	background-repeat:no-repeat;
 }
+:selected {
+	background-color:black;
+	color:white;
+}
