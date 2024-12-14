@@ -327,12 +327,12 @@ check:checked:active {
 	background-image:url("../images/check_active.png");
 	background-repeat:no-repeat;
 }
-check:inconsistent, radio:inconsistent {
+check:indeterminate, radio:indeterminate {
 	-gtk-icon-source: none;
 	background-image:url("../images/inconsistent.png");
 	background-repeat:no-repeat;
 }
-check:inconsistent:active, radio:inconsistent:active {
+check:indeterminate:active, radio:indeterminate:active {
 	-gtk-icon-source: none;
 	background-image:url("../images/inconsistent_active.png");
 	background-repeat:no-repeat;
