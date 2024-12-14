@@ -9,9 +9,9 @@ This theme attempts to make GTK apps look as close as possible to being an xlib 
 
 ## To do:
 * Touch up on random stuff like tabs
-* Add absolutely stupid widgets that GTK doesn't tell me the name of
-* Fix the select few buttons that shrink when you hover over them
 * GTK 2.0 + 4.0 (GTK 2.0 will come before 4.0, but the port to 4.0 should be easy enough I guess)
+* Try to figure out how to disable the on and off icons on switches
+* Mouse selection backgrounds
 
 ## Installation
 I recommend the following to enhance the look and feel, but doing this is completely optional:
