@@ -1,0 +1,276 @@
+titlebar, menubar {
+	background-color:white;
+	color:black;	
+	border: 1px solid black;
+}
+titlebar item {
+	padding:2px;
+}
+button {
+	background-color:white;
+	color: black;
+	border:1px solid black;
+	padding:3px;
+}
+button:hover {
+	border:3px solid black;
+	padding:1px;
+}
+button:active {
+	border:0px;
+	background-color:black;
+	color:white
+}
+menuitem {
+	color:black;
+	padding:4px;
+}
+menuitem:hover {
+	border:3px solid black;
+	padding:1px;
+}
+dropdown, menu {
+	color:black;
+	border:1px solid black;
+}
+.background {
+	color:black;
+	background-color:white;
+}
+selection {
+	color:white;
+	background-color:black;
+}
+scrollbar.vertical {
+	background-color:white;
+	color:black;
+	border: 1px solid black;
+	padding:1px;
+	transition:none;
+}
+scrollbar.horizontal {
+	background-color:white;
+	color:black;
+	padding:1px;
+	transition:none;
+	border: 1px solid black;
+}
+trough {
+	background-image:url("../images/checker.png");
+	padding:2px;
+}
+toolbar {
+	background-color:white;
+}
+toolbar button {
+	border:none;
+}
+toolbar:hover {
+	border:3px solid black;
+	padding:1px;
+}
+toolbar:active {
+	color:white;
+	background-color:black;
+	padding:0px;
+}
+link {
+	text-decoration-line: underline;
+}
+link:visited {
+	text-decoration-line: underline;
+	color:#00007f;
+}
+tooltip {
+	background-color:white;
+	color:black;
+	border: 1px solid black;
+}
+tab {
+	background-color:white;
+	margin:2px;
+	color:black;
+	border: 1px solid black;
+}
+tab:active {
+	background-color:black;
+	color:white;
+	border:none;
+}
+tab:hover {
+	background-color:white;
+	color:black;
+	border:1px solid black;
+}
+entry {
+	border:1px solid black;
+	margin:2px;
+	padding:2px;
+}
+entry:hover {
+	border: 2px solid black;
+	margin:2px;
+	padding:2px;
+}
+separator {
+	background-image:url("../images/stretchedchecker.png");
+}
+scrollbar button {
+	padding:1px
+}
+scrollbar button:hover {
+	padding:0px
+}
+slider {
+	padding:4px;
+	background-color:white;
+	border: 1px solid black;
+}
+calendar {
+	border:1px solid black;
+}
+expander {
+	padding:4px;
+	border:1px solid black;
+}
+notebook {
+	border: 1px solid black;
+}
+headerbar {
+	background-color:white;
+	border-bottom:1px solid white;
+	background-image:url("../images/checker.png");
+	margin:1px;
+}
+headerbar button {
+	padding:3px;
+}
+headerbar button:active {
+	padding:4px;
+}
+radiobutton, checkbutton {
+	border:1px solid black;
+	padding:3px;
+}
+radiobutton:hover, checkbutton:hover {
+	border:3px solid black;
+	padding:1px;
+}
+radiobutton:active, checkbutton:active {
+	background-color:black;
+	color:white;
+}
+progressbar {
+	border:1px solid black;
+	padding:1px;
+}
+scale {
+	border: 1px solid black;
+	padding:1px;
+}
+togglebutton {
+	background-image:url("../images/arrow.png");
+	padding:3px;
+	border:1px solid black;
+}
+togglebutton:hover {
+	padding:1px;
+	border:3px solid black;
+}
+togglebutton:active {
+	background-color:black;
+	color:white;
+}
+switch {
+	border:solid 1px black;
+	background-color:black;
+}
+button.link:active {
+	padding:4px;
+}
+radiobutton:disabled, checkbutton:disabled {
+	border:1px double black;
+}
+notebook label {
+	padding:3px;
+}
+notebook label:hover {
+	border:3px solid black;
+	padding:1px;
+}
+notebook label:active {
+	background-color:black;
+	color:white;
+	padding:4px;
+}
+frame.border-inset {
+	border:1px inset black;
+}
+frame.border-outset {
+	border:1px outset black;
+}
+scrolledwindow {
+	padding:1px;
+	border:1px solid black;
+}
+button.file:active {
+	padding:4px;
+}
+button.font:active {
+	padding:4px;
+}
+button.toggle:active {
+	padding:4px;
+}
+button:disabled label {
+	background-image:url("../images/checker.png");
+}
+spinbutton.horizontal button:active {
+	background-color:black;
+	padding-left:4px;
+	padding-right:4px;
+}
+spinbutton.vertical button:active {
+	background-color:black;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+label:disabled, entry:disabled, button:disabled, spinbutton:disabled, switch:disabled {
+	background-image:url("../images/checker.png");
+}
+entry.search {
+	padding:2px;
+}
+paned {
+	border:1px solid black;
+}
+toolbar button {
+	padding:4px;
+}
+tab button {
+	border:1px solid black;
+	padding:3px;
+	margin:1px;
+}
+tab button:hover {
+	border:3px solid black;
+	margin:1px;
+}
+tab button:active {
+	background-color:black;
+	color:white;
+}
+popover stack {
+	padding:0px;
+	margin:0px;
+	border:1px solid black;
+}
+popover box, menusectionbox {
+	margin:0px;
+	padding:0px;
+}
+toolbar button:disabled {
+	color:black;
+	background-color:white;
+	background-image:none;
+}
