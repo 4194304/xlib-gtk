@@ -1,12 +1,17 @@
-# xlib-gtk
-A theme which attempts to mimic the monochrome look of xlib applications in GTK
+# athena-gtk
+A GTK theme which attempts to mimic the monochrome look of XAW applications in GTK
 
-This theme attempts to make GTK apps look as close as possible to being an xlib app without compromising on features such as scroll bars.
+This theme attempts to make GTK apps look as close as possible to being an X Athena widgets app without compromising on features such as scroll bars (although I wish I could implement the proper scrollbars).
 
 ## Complete:
 * Most widgets
 * Everything you would realistically need
 * Selection support
+
+## Recommended applications:
+* PCManFM (gtk3)
+* L3afpad
+* Other GTK apps I did not mention
 
 ## To do:
 * GTK 2.0 + 4.0 (GTK 2.0 will come before 4.0, but the port to 4.0 should be easy enough I guess)
@@ -19,7 +24,7 @@ I recommend the following to enhance the look and feel, but doing this is comple
 * Misc fixed fonts (requires fonttosfnt, xorg-fonts-100dpi, and xorg-fonts-75dpi on Arch)
   * Instructions on how to do this will be below the installation process.
 
-To install this theme, simply clone the repository and throw it into the ~/.themes/ folder, then apply it with either the ~/.config/gtk-3.0/settings.ini file, or through a GTK 2/3 GUI application.
+To install this theme, simply clone the repository and throw it into the ~/.themes/ folder, then apply it with either the ~/.config/gtk-3.0/settings.ini file, or through a GTK 2/3 GUI application such as lxappearance.
 
 ## Misc fixed font/other bitmap fonts (optional)
 Since Pango 1.44, GTK has not supported traditional bitmap fonts such as those in the BDF or PCF format. Thankfully though, using a tool called fonttosfnt, this can be completely fixed, allowing you to use these fonts with GTK.
